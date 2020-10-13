@@ -1,0 +1,21 @@
+/*tablet*/
+@media all and (max-width: 1000px){
+	.kontenheader h1{
+		font-size: 32px;
+	}
+	.kontenheader h3{
+		font-size: 22px;
+	}
+}
+/*tablet*/
+
+/*smartphone*/
+@media all and (max-width: 670px) {
+.logo span{
+    display:block;
+    margin-left: 300px;
+  }
+
+  .menu{
+  	display: none;
+  }
