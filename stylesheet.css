@@ -1,0 +1,99 @@
+
+/*navbar menu*/
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: lavender;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo{
+	float: left; 	
+}
+
+.logo img{
+	 width: 124px;
+ 	 margin-top: 9px;
+}
+
+.menu{
+  float: right;
+  margin-right: -25px;
+}
+
+.menu a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: darkcyan;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  text-decoration:none; 
+}
+
+.menu a:hover{
+  background-color: lightblue;
+}
+ .logo span{
+  color: darkcyan;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none; 
+}
+/*navbar menu*/
+
+
+/*header*/
+.fa {
+  margin-right: 5px;
+}
+ .header{
+    padding: 185px 0 80px 0;
+    background-image: url(indonesia.jpg);
+    background-size: cover;
+    color:  #EEE8AA;
+    text-align: center;
+}
+.kontenheader h1{
+  letter-spacing:5px;
+  font-size:48px;
+ }
+ .kontenheader p{
+   opacity: 0.7;
+    margin-bottom: 3px;
+ }
+ /*header*/
+ 
+
+
+ /*tombol*/
+ .tombol-atas{
+  margin:20px 0;
+ }
+ .tombol{
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-decoration:none; 
+ }
+ .tombol:hover
+  {
+  opacity: 1;
+  }
+.wa{
+   background-color:#239b76;
+ }
+
+/*tombol*/
